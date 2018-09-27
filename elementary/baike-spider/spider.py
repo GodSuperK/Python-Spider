@@ -1,8 +1,7 @@
-from spider_utils import UrlManger
-from spider_utils import HTMLDownloader
-from spider_utils import HTMLParser
-from spider_utils import DataOutput
-
+from .spider_utils import UrlManger
+from .spider_utils import HTMLDownloader
+from .spider_utils import HTMLParser
+from .spider_utils import DataOutput
 
 class SpiderMan(object):
     def __init__(self, root_url):
